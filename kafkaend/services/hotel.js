@@ -186,7 +186,7 @@ function deleteHotelById(msg, callback){
 
 function getHotelsForCustomer(msg, callback){
     var res = {};
-    var parts = msg.queryParams.startDate.split("-");
+    /*var parts = msg.queryParams.startDate.split("-");
     var startDate = new Date(parts[2]+"-"+parts[0]+"-"+parts[1]);
     parts = msg.queryParams.endDate.split("-");
     var endDate = new Date(parts[2]+"-"+parts[0]+"-"+parts[1]);
@@ -258,7 +258,7 @@ function getHotelsForCustomer(msg, callback){
 			analytics.trackHotelPageViews(result);
 			callback(null , res) ;
 		}
-	});
+	});*/
 }
 
 function getHotelByIdForCustomer(msg, callback){
